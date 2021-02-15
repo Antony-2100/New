@@ -14,7 +14,7 @@ import argparse
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from utils.decorators import MessageDecorator
+from utils.decorators import MessageDecorators
 from utils.provider import APIProvider
 
 try:
